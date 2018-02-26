@@ -1,0 +1,35 @@
+
+#playground{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border:15px solid;
+    border-color: lightslategray; 
+}
+.brick{
+    position: absolute;
+    width:27px;
+    height:15px;
+}
+#ball{
+    position: absolute;
+    border-radius: 10px/10px;
+    left:358px;
+    top:468px;
+    width:12px;
+    height:12px;
+    background-color: red; 
+}
+#score{
+    position: absolute;
+    background-color: lightcoral;
+    float: left;
+    width: 730px;
+    height: 40px;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 40px;
+}
+#base{
+    position: absolute;
+}
